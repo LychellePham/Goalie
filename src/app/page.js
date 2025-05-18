@@ -2,21 +2,18 @@
 import Image from "next/image";
 
 
-import { useRouter } from "next/navigation";
+import Button from "./dashboard/Button";
 
 
 export default function Home() {
-  const router = useRouter();
-
-  const changePage = () => {
-    router.push('/dashboard');
-  };
+  
 
   return (
   
     <div className="bg-beige min-h-screen">
 
-      <button onClick={changePage} className="cursor-pointer">Dashboard</button>
+      <Button label="Dashboard"></Button>
+      {/* <button onClick={changePage} className="w-32 h-12 cursor-pointer bg-green rounded-md m-6 p-2 shadow-md shadow-seagreen hover:ring-1 hover:font-medium ring-emerald-700 transition delay-150 duration-100 ease-in-out">DASH</button> */}
     
     
 
