@@ -7,6 +7,10 @@
   --color-green: #AcD3A8;
   --color-seagreen: #8AB2A6;
   --color-beige: #F6F1DE;
+  --color-dark: #3E3F5B;
+
+  --shadow-custom: 0 5px 5px 0 rgba(0, 0, 0, 1);
+  
 }
 
 /* :root {
