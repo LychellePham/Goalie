@@ -1,14 +1,16 @@
 import AddGoalContainer from "./AddGoalContainer";
+import Logo from "../../components/Logo";
 
 export default function DashboardPage(){
     // useEffect to fetch goals from backend
 
     return(
         <>
-        <div className="bg-beige p-4">
+        <div className="bg-beige p-4 min-h-screen">
             <div className="">
-                <h1 className="text-9xl">Goalie</h1>
-                <img src="/GOALIE2.png" alt="Goalie Logo"></img>
+                <Logo></Logo>
+                
+                
                 <h2>bum</h2>
                 <p>pee</p>
                 <AddGoalContainer></AddGoalContainer>

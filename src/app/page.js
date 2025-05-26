@@ -12,7 +12,9 @@ export default function Home() {
   
     <div className="bg-beige min-h-screen">
 
-      <Button label="Dashboard"></Button>
+
+      <h1 className="font-sans">hiiii</h1>
+      <Button label="Dashboard" className="font-sans"></Button>
       {/* <button onClick={changePage} className="w-32 h-12 cursor-pointer bg-green rounded-md m-6 p-2 shadow-md shadow-seagreen hover:ring-1 hover:font-medium ring-emerald-700 transition delay-150 duration-100 ease-in-out">DASH</button> */}
     
     
