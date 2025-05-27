@@ -5,7 +5,7 @@ export default function AddGoalContainer(){
     // This is the box that lets the user enter data to create new goal
     return(
       <>
-      <div className="bg-seagreen bg-contain w-fit rounded-2xl object-scale-down m-4 grid grid-cols-2 grid-rows-4 shadow-custom shadow-dark">
+      <div className="bg-seagreen bg-contain w-full rounded-2xl object-scale-down m-4 grid grid-cols-2 grid-rows-4 shadow-custom shadow-dark">
 
 
       
