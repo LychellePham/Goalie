@@ -1,11 +1,18 @@
 'use client';
 import Image from "next/image";
+import { Router, useRouter } from "next/navigation";
 
 
 import Button from "./dashboard/Button";
 
 
 export default function Home() {
+
+  const router = useRouter()
+
+  const LogInPage = () => {
+    router.push("/login")
+  }
   
 
   return (
@@ -16,7 +23,7 @@ export default function Home() {
       <h1 className="font-sans">hiiii</h1>
       <Button label="Dashboard" className="font-sans"></Button>
       {/* <button onClick={changePage} className="w-32 h-12 cursor-pointer bg-green rounded-md m-6 p-2 shadow-md shadow-seagreen hover:ring-1 hover:font-medium ring-emerald-700 transition delay-150 duration-100 ease-in-out">DASH</button> */}
-    
+      <button onClick={LogInPage}>LogInPage</button>
     
 
         {/* <p className="text-red-500">HIIII</p>
