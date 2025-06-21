@@ -14,6 +14,10 @@ export default function Home() {
     router.push("/login")
   }
   
+  const SignUpPage = () => {
+    router.push("/signin")
+  }
+  
 
   return (
   
@@ -24,6 +28,7 @@ export default function Home() {
       <Button label="Dashboard" className="font-sans"></Button>
       {/* <button onClick={changePage} className="w-32 h-12 cursor-pointer bg-green rounded-md m-6 p-2 shadow-md shadow-seagreen hover:ring-1 hover:font-medium ring-emerald-700 transition delay-150 duration-100 ease-in-out">DASH</button> */}
       <button onClick={LogInPage}>LogInPage</button>
+      <button onClick={SignUpPage}>SignUp</button>
     
 
         {/* <p className="text-red-500">HIIII</p>
